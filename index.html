@@ -3,22 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Start Golup — DNA המערכת</title>
+  <title>Start Golup - DNA המערכת</title>
   <style>
     :root { --ink:#17212e; --muted:#526275; --blue:#3d67ff; --sky:#eef4ff; --line:#d9e2ee; }
     * { box-sizing:border-box; }
     body { margin:0; background:#f6f8fb; color:var(--ink); font-family:Arial,"Heebo",sans-serif; overflow-x:hidden; }
-    .wrap { max-width:1200px; margin:0 auto; padding:42px 28px 72px; }
-    header { position:relative; overflow:hidden; background:#fff; border-radius:26px; padding:42px 48px; box-shadow:0 10px 40px #162b4a12; animation:rise .7s ease both; }
+    .wrap { max-width:1180px; margin:0 auto; padding:38px 28px 72px; }
+    header { position:relative; overflow:hidden; background:#fff; border-radius:26px; padding:38px 48px 42px; box-shadow:0 10px 40px #162b4a12; animation:rise .7s ease both; text-align:center; }
     header::after { content:""; position:absolute; width:260px; height:260px; left:-92px; top:-108px; border-radius:50%; background:radial-gradient(circle,#dce7ff 0%,#eef4ff00 70%); animation:drift 8s ease-in-out infinite alternate; pointer-events:none; }
-    header img { width:230px; height:auto; margin-bottom:36px; }
+    header img { display:block; width:min(200px,62vw); height:auto; margin:0 auto 28px; }
     h1 { font-size:48px; margin:0 0 16px; letter-spacing:-1px; }
     h2 { font-size:30px; margin:0 0 12px; }
     p { font-size:19px; line-height:1.65; margin:0; }
-    .lead { max-width:780px; color:var(--muted); }
-    .principle { margin-top:26px; padding:18px 22px; background:var(--sky); border-right:5px solid var(--blue); border-radius:12px; font-size:21px; font-weight:700; }
+    .lead { max-width:780px; margin-inline:auto; color:var(--muted); }
+    .principle { max-width:900px; margin:26px auto 0; padding:18px 22px; background:var(--sky); border-right:5px solid var(--blue); border-radius:12px; font-size:21px; font-weight:700; }
     .section-title { margin:55px 0 22px; }
-    .audience { margin-top:22px; color:var(--muted); font-size:17px; }
+    .audience { max-width:930px; margin:22px auto 0; color:var(--muted); font-size:17px; }
     .pair { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin:0 0 32px; }
     .card { background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px #162b4a10; opacity:0; transform:translateY(24px); animation:rise .75s ease both; animation-timeline:view(); animation-range:entry 10% cover 28%; }
     .card:hover { transform:translateY(-5px); box-shadow:0 16px 42px #162b4a22; transition:.25s ease; }
@@ -40,8 +40,8 @@
     @media (max-width:980px) { .wrap { padding:30px 22px 60px; } header { padding:34px; } .card img { height:240px; } }
     @media (max-width:760px) {
       .wrap { padding:16px 12px 44px; }
-      header { padding:26px 22px; border-radius:20px; }
-      header img { width:185px; margin-bottom:26px; }
+      header { padding:28px 20px 30px; border-radius:20px; }
+      header img { width:min(172px,58vw); margin-bottom:22px; }
       h1 { font-size:34px; line-height:1.15; }
       h2 { font-size:27px; }
       p { font-size:17px; }
@@ -64,9 +64,9 @@
     <header>
       <img src="logo.webp" alt="Start Golup">
       <h1>ה־DNA של המערכת שלנו</h1>
-      <p class="lead">Start Golup מרכזת את כל נקודות המגע עם הלקוח ומנהלת אותן באופן חכם — מהליד הראשון ועד לחזרה הבאה.</p>
+      <p class="lead">Start Golup מרכזת את כל נקודות המגע עם הלקוח ומנהלת אותן באופן חכם - מהליד הראשון ועד לחזרה הבאה.</p>
       <div class="principle">מערכת הפעלה חכמה לעסקי שירות, שמפחיתה עבודה ידנית ומאפשרת לעסק להתמקד בלקוחות ובצמיחה.</div>
-      <p class="audience">מותאמת למספרות, ברברשופס, נייליסטיות, קליניקות, מטפלים, סטודיואים, עסקים בתחום הכושר, היופי והוולנס — ולכל עסק שירות שעובד עם לקוחות ותורים.</p>
+      <p class="audience">מותאמת למספרות, ברברשופס, נייליסטיות, קליניקות, מטפלים, סטודיואים, עסקים בתחום הכושר, היופי והוולנס - ולכל עסק שירות שעובד עם לקוחות ותורים.</p>
     </header>
 
     <h2 class="section-title">הבעיות בשטח והפתרון של Start Golup</h2>
